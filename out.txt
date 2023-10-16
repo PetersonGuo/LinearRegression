@@ -1,0 +1,72 @@
+y = 0.977273x - 7.113636
+Strength: 0.942234
+y = 0.977273x - 7.113636
+Strength: 0.942234
+y = 6.600000x + 
+Strength: 0.979526
+y = 6.600000x + 
+Strength: 0.979526
+y = 6.600000x + 
+Strength: 0.979526
+y = 6.600000x + 
+Strength: 0.979526
+y = 6.600000x + 
+Strength: 0.979526
+y = 6.600000x + 
+Strength: 0.979526
+y = 6.600000x + 2.000000
+Strength: 0.979526
+y = 6.600000x + 2.000000
+Strength: 0.979526
+y = 6.600000x + 2.000000
+Strength: 0.979526
+y = 0.504545x + 2.895455
+Strength: 0.814926
+y = 0.504545x + 2.895455
+Strength: 0.814926
+y = 0.504545x + 2.895455
+Strength: 0.814926
+y = 0.504545x + 2.895455
+Strength: 0.814926
+y = 0.504545x + 2.895455
+Strength: 0.814926
+y = 0.504545x + 2.895455
+Strength: 0.814926
+y = 0.504545x + 2.895455
+Strength: 0.814926
+y = 0.504545x + 2.895455
+Strength: 0.814926
+y = 0.504545x + 2.895455
+Strength: 0.814926
+y = 0.504545x + 2.895455
+Strength: 0.814926
+y = 0.504545x + 2.895455
+Strength: 0.814926
+y = 0.504545x + 2.895455
+Strength: 0.814926
+y = 154.250000x - 358.583333
+Strength: 0.8763
+y = 154.250000x - 358.583333
+Strength: 0.8763
+y = 154.250000x - 358.583333
+Strength: 0.8763
+y = x
+Strength: 1
+y = x
+Strength: 1
+y = x
+Strength: 1
+y = x
+Strength: 1
+y = x
+Strength: 1
+y = x
+Strength: 1
+y = x
+Strength: 1
+y = x
+Strength: 1
+y = x
+Strength: 1
+y = x
+Strength: 1
