@@ -38,7 +38,7 @@ filename=$(basename -- "$1")
 extension="${filename##*.}"
 filename="${filename%.*}"
 
-if g++ $1 -std=c++11 -I/usr/include/python3.10 -lpython3.10 -I/home/petersonguo/.local/lib/python3.10/site-packages/numpy/core/include -g -o $filename;
+if g++ $1 -std=c++20 -I/opt/anaconda3/bin/python -lpython -I/home/petersonguo/.local/lib/python3.12/site-packages/numpy/core/include -shared -framework Python -g -o $filename;
 then
 	./$filename $testdata $output
 fi
