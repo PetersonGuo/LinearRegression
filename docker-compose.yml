@@ -1,0 +1,9 @@
+version: '3.9'
+
+services:
+  linear-regression:
+    build: .
+    container_name: linear-regression-container
+    stdin_open: true
+    tty: true
+    command: make run
