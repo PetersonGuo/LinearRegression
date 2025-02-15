@@ -1,9 +1,10 @@
-version: '3.9'
-
 services:
-  linear-regression:
+  lr:
     build: .
-    container_name: linear-regression-container
+    container_name: lr
     stdin_open: true
     tty: true
     command: make run
+    network_mode: none
+    mem_limit: 8g
+    cpus: 2

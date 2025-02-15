@@ -1,23 +1,26 @@
 # Base image with GCC and Python
 FROM debian:trixie-slim
 
-# Set environment variables
-ENV DEBIAN_FRONTEND=noninteractive
-
 # Install dependencies
 RUN apt-get update && \
-    apt-get install -y g++ python3 python3-pip && \
-    pip3 install numpy
+    apt-get install -y g++ make python3 python3-pip python3-venv python3-dev && \
+    apt-get clean && rm -rf /var/lib/apt/lists/*
 
 # Set working directory
 WORKDIR /app
 
-# Copy files
+# Copy project files
 COPY . /app
 
-# Command to build and run Makefile
-RUN make
+# Create and configure the virtual environment
+RUN python3 -m venv venv && chmod -R 755 venv
 
-# Default command to run the linear regression
-CMD ["make", "run"]
+# Use the virtual environment as default Python
+ENV PATH="venv/bin:$PATH"
+
+# Install Python dependencies
+RUN pip install -r requirements.txt --no-cache-dir
+
+# Default command to run the project
+#CMD ["make", "run"]
 
